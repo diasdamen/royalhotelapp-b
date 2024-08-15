@@ -4,7 +4,8 @@
   "info": {
     "singularName": "reservation",
     "pluralName": "reservations",
-    "displayName": "reservation"
+    "displayName": "reservation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,9 @@
       "relation": "manyToOne",
       "target": "api::room.room",
       "inversedBy": "reservations"
+    },
+    "phoneNumber": {
+      "type": "string"
     }
   }
 }
