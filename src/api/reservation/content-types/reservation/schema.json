@@ -35,6 +35,9 @@
     },
     "phoneNumber": {
       "type": "string"
+    },
+    "fullName": {
+      "type": "string"
     }
   }
 }
