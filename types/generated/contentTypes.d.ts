@@ -385,7 +385,7 @@ export interface ApiReservationReservation extends Schema.CollectionType {
       'api::room.room'
     >;
     phoneNumber: Attribute.String;
-    fullName: Attribute.String;
+    fullName: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
