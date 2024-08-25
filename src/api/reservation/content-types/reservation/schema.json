@@ -38,6 +38,12 @@
     },
     "fullName": {
       "type": "text"
+    },
+    "adults": {
+      "type": "integer"
+    },
+    "kids": {
+      "type": "integer"
     }
   }
 }

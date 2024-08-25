@@ -386,6 +386,8 @@ export interface ApiReservationReservation extends Schema.CollectionType {
     >;
     phoneNumber: Attribute.String;
     fullName: Attribute.Text;
+    adults: Attribute.Integer;
+    kids: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
